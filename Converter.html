@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Converter.js"></script>
+</head>
+<body>
+    <title>Temperature Converter</title>
+<body>
+<!--Main Heading-->
+<h2><b>Temperature Converter</b></h2>
+<!--Farenheit to Celsius-->
+<!--Enduser instruction text-->
+<p>Type a value in the Fahrenheit field below to convert to Celsius:</p>
+<p>
+<!--Fahrenheit label-->
+  <label>Fahrenheit</label>
+<!--User input field-->
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="F2CtemperatureConverter(this.value)" onchange="F2CtemperatureConverter(this.value)">
+</p>
+<!--Output (Celcius) field-->
+<p>Celcius: <span id="outputCelcius"></span></p>
+<br>
+<!--Celcius to Fahrenheit-->
+<!--Enduser instruction text-->
+<p>Type a value in the Celsius field below to convert Fahrenheit:</p>
+<p>
+<!--Celcius label-->
+  <label>Celsius</label>
+<!--User input field-->
+  <input id="inputCelsius" type="number" placeholder="Celsius" oninput="C2FtemperatureConverter(this.value)" onchange="C2FtemperatureConverter(this.value)">
+</p>
+<!--Output (Celcius) field-->
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+<br>
+</body>
+</html>
